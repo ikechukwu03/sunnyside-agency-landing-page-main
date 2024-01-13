@@ -1,0 +1,401 @@
+/* defining padding and margin to * treats the whole web page as one component(meaning it targets even the head tags sef)  */
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+body{
+  box-sizing: border-box;
+
+}
+.header{
+  background: url('./lol/image-header.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+  }
+  nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px 10px;
+  }
+  nav ul li a{
+    color: white;
+    text-decoration: none;
+  }
+  nav ul li.Contact a{
+    background-color: white;
+    padding: 10px 25px;
+    color: black;
+    border-radius: 50px;
+    font-weight: 600;
+  }
+  nav ul li.Contact a:hover{
+    background-color: rgba(172, 229, 255, 0.6);
+    color: white;
+  }
+  .main h1{
+    font-size: 70px;
+    letter-spacing: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 35px;
+  }
+  .main img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    }
+
+.layer2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+  .text-content{
+    background-color: hsl(0, 100%, 98%);
+    width: 50%;
+    height: 70vh;
+  }
+  .text-in{
+    width: 70%;
+    padding:8rem 5rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .text-content h1{
+    color: rgb(48, 47, 47);
+    font-weight: bolder;
+  }
+  .text-content p{
+    margin-top: 24px;
+    margin-bottom: 29px;
+    line-height: 1.45rem;
+    color: rgb(48, 47, 47);
+  }
+  .eggimg{
+    width: 50%;
+    height: 70vh;
+  }
+  .eggimg img{
+    width:100%;
+    object-fit: cover;
+    height: 70vh;
+  }
+  .text-content a{
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .line{
+    background-color: hsl(51, 100%, 82%);
+    height: 9px;
+    border-radius: 20px;
+    width: 115px;
+    margin-top: -7px;
+  }
+
+.layer3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  }
+  .text-content2{
+    background-color: hsl(0, 100%, 98%);
+    width: 50%;
+    height: 70vh;
+  }
+  .cupimg{
+    width: 50%;
+    height: 70vh;
+  }
+  .cupimg img{
+    width:100%;
+    object-fit: cover;
+    height: 70vh;
+  }
+  .text-in2{
+    width: 55%;
+    padding:128px 80px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .text-content2 h1{
+    color: rgb(48, 47, 47);
+    font-weight: bolder; 
+  }
+  .text-content2 p{
+    margin-top: 24px;
+    margin-bottom: 29px;
+    line-height: 1.45rem;
+    color: rgb(48, 47, 47);
+  }
+  .text-content2 a{
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .line2{
+    background-color: hsl(9, 91%, 91%);
+    height: 9px;
+    border-radius: 20px;
+    width: 115px;
+    margin-top: -7px;
+  }
+
+.layer4{
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+    .cherry{
+      background: url('./lol/image-graphic-design.jpg');
+      height: 80vh;
+      width: 50%;
+      position: relative;
+      color: hsl(167, 40%, 24%);
+    }
+    .text-in3{
+      bottom: 1.5rem;
+      position: absolute;
+      padding: 20px;
+      text-align: center;
+      line-height: 20px;
+    }
+    .text-in3 h1{
+      margin-bottom: 30px;
+    }
+    .text-in3 p{
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .orange{
+      background: url('./lol/image-photography.jpg');
+      height: 80vh;
+      width: 50%;
+      position: relative;
+      color: hsl(198, 62%, 26%);
+    }
+    .text-in4{
+      bottom: 1.5rem;
+      position: absolute;
+      padding: 20px;
+      text-align: center;
+      line-height: 20px;
+    }
+    .text-in4 h1{
+      margin-bottom: 30px;
+    }
+    .text-in4 p{
+      width: 49%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+.testimonial{
+  background-color: hsl(0, 100%, 98%);
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  padding: 80px;
+  margin-top: 30px;
+  font-size: 20px;
+  letter-spacing: 5px;
+  color: hsl(197, 15%, 54%);
+}
+
+.layer5{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 100%, 98%);
+}
+  .in-layer5{
+    width: 80%;
+    display: flex;
+  }
+  .Emily{
+    display: flex;
+    justify-content: left;
+    align-items:  center;
+    padding: 80px 0px;
+    flex-direction: column;
+  }
+  .emily-pic img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+  }
+  .emily-text{
+    width: 80%;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 23px;
+    color: hsl(198, 62%, 26%);
+}
+  .her-name{
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 20px;
+    color: hsl(198, 62%, 26%);
+  }
+  .job{
+    margin-top: 10px;
+    color: hsl(197, 15%, 54%);
+    }
+
+  .Thomas{
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    padding: 80px 0px;
+    flex-direction: column;
+  }
+  .thomas-pic img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+  }
+  .thomas-text{
+    width: 80%;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 23px;
+    color: hsl(198, 62%, 26%);
+  }
+  .his-name{
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 20px;
+    color: hsl(198, 62%, 26%);
+  }
+  .job2{
+    margin-top: 10px;
+    color: hsl(197, 15%, 54%);
+  }
+
+  .Jennie{
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    padding: 80px 0px;
+    flex-direction: column;
+  }
+  .jennie-pic img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+  }
+  .jennie-text{
+    width: 80%;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 23px;
+    color: hsl(198, 62%, 26%);
+  }
+  .her-name{
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 20px;
+    color: hsl(198, 62%, 26%);
+  }
+  .job3{
+    margin-top: 10px;
+    color: hsl(197, 15%, 54%);
+  }
+
+.layer6{
+  display: flex;
+  width: 100%; 
+  height: 70vh;
+}
+  .bottle img{
+    height: 70vh;
+    width: 100%;
+    object-fit: cover;
+  }
+  .orange2 img{
+    height: 70vh;
+    width: 100%;
+    object-fit: cover;
+  }
+  .cone img{
+    height: 70vh;
+    width: 100%;
+    object-fit: cover;
+  }
+  .sugar img{
+    height: 70vh;
+    width: 100%;
+    object-fit: cover;
+  }
+
+.final-stage{
+  background-color: hsl(167, 34%, 61%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 50vh;
+}
+  .sunny{
+    color:hsl(167, 16%, 33%) ;
+    font-weight: bolder;
+    margin-bottom: 50px;
+    font-size: 35px;
+  }
+  .details a{
+    text-decoration: none;
+    color: hsl(167, 40%, 24%);
+    padding: 20px;
+  }
+  .details a:hover{
+    color: white;
+  }
+  .icons{
+    padding: 40px;
+  }
+  .icons svg{
+    padding: 20px 13px;
+    cursor: pointer;
+  }
+  .icons svg:hover{
+    fill:#ffff;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
