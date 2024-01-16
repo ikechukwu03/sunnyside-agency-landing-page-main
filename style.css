@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Figtree:wght@600;800&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
 /* defining padding and margin to * treats the whole web page as one component(meaning it targets even the head tags sef)  */
 *{
   padding: 0%;
@@ -6,8 +7,11 @@
 
 body{
   box-sizing: border-box;
-
+  /*font-family: 'Barlow', sans-serif;
+  font-family: 'Figtree', sans-serif;
+  font-family: 'Fraunces', serif; */
 }
+
 .header{
   background: url('./lol/image-header.jpg');
   background-repeat: no-repeat;
@@ -26,6 +30,7 @@ body{
     display: inline-block;
     list-style: none;
     margin: 20px 10px;
+    font-family: 'Figtree', sans-serif;
   }
   nav ul li a{
     color: white;
@@ -37,6 +42,8 @@ body{
     color: black;
     border-radius: 50px;
     font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Fraunces', serif;
   }
   nav ul li.Contact a:hover{
     background-color: rgba(172, 229, 255, 0.6);
@@ -51,6 +58,7 @@ body{
     font-weight: 600;
     text-transform: uppercase;
     margin-top: 35px;
+    font-family: 'Fraunces', serif;
   }
   .main img{
     display: flex;
@@ -80,13 +88,14 @@ body{
   }
   .text-content h1{
     color: rgb(48, 47, 47);
-    font-weight: bolder;
+    font-family: 'Fraunces', serif;
   }
   .text-content p{
     margin-top: 24px;
     margin-bottom: 29px;
     line-height: 1.45rem;
     color: rgb(48, 47, 47);
+    font-family: 'Barlow', sans-serif;
   }
   .eggimg{
     width: 50%;
@@ -102,6 +111,7 @@ body{
     text-transform: uppercase;
     font-weight: 600;
     text-decoration: none;
+    font-family: 'Fraunces', serif;
   }
   .line{
     background-color: hsl(51, 100%, 82%);
@@ -138,20 +148,22 @@ body{
     margin-right: auto;
   }
   .text-content2 h1{
-    color: rgb(48, 47, 47);
-    font-weight: bolder; 
+    color: rgb(48, 47, 47); 
+    font-family: 'Fraunces', serif;
   }
   .text-content2 p{
     margin-top: 24px;
     margin-bottom: 29px;
     line-height: 1.45rem;
     color: rgb(48, 47, 47);
+    font-family: 'Barlow', sans-serif;
   }
   .text-content2 a{
     color: black;
     text-transform: uppercase;
     font-weight: 600;
     text-decoration: none;
+    font-family: 'Fraunces', serif;
   }
   .line2{
     background-color: hsl(9, 91%, 91%);
@@ -184,11 +196,13 @@ body{
     }
     .text-in3 h1{
       margin-bottom: 30px;
+      font-family: 'Fraunces', serif;
     }
     .text-in3 p{
       width: 50%;
       margin-left: auto;
       margin-right: auto;
+      font-family: 'Barlow', sans-serif;
     }
     .orange{
       background: url('./lol/image-photography.jpg');
@@ -206,11 +220,13 @@ body{
     }
     .text-in4 h1{
       margin-bottom: 30px;
+      font-family: 'Fraunces', serif;
     }
     .text-in4 p{
       width: 49%;
       margin-left: auto;
       margin-right: auto;
+      font-family: 'Barlow', sans-serif;
     }
 
 .testimonial{
@@ -224,6 +240,7 @@ body{
   font-size: 20px;
   letter-spacing: 5px;
   color: hsl(197, 15%, 54%);
+  font-family: 'Fraunces', serif;
 }
 
 .layer5{
@@ -255,16 +272,19 @@ body{
     margin-top: 50px;
     line-height: 23px;
     color: hsl(198, 62%, 26%);
+    font-family: 'Barlow', sans-serif;
 }
   .her-name{
     margin-top: 50px;
     font-weight: 600;
     font-size: 20px;
     color: hsl(198, 62%, 26%);
+    font-family: 'Fraunces', serif;
   }
   .job{
     margin-top: 10px;
     color: hsl(197, 15%, 54%);
+    font-family: 'Figtree', sans-serif;
     }
 
   .Thomas{
@@ -285,16 +305,19 @@ body{
     margin-top: 50px;
     line-height: 23px;
     color: hsl(198, 62%, 26%);
+    font-family: 'Barlow', sans-serif;
   }
   .his-name{
     margin-top: 50px;
     font-weight: 600;
     font-size: 20px;
     color: hsl(198, 62%, 26%);
+    font-family: 'Fraunces', serif;
   }
   .job2{
     margin-top: 10px;
     color: hsl(197, 15%, 54%);
+    font-family: 'Figtree', sans-serif;
   }
 
   .Jennie{
@@ -315,16 +338,19 @@ body{
     margin-top: 50px;
     line-height: 23px;
     color: hsl(198, 62%, 26%);
+    font-family: 'Barlow', sans-serif;
   }
-  .her-name{
+  .her-name2{
     margin-top: 50px;
     font-weight: 600;
     font-size: 20px;
     color: hsl(198, 62%, 26%);
+    font-family: 'Fraunces', serif;
   }
   .job3{
     margin-top: 10px;
     color: hsl(197, 15%, 54%);
+    font-family: 'Figtree', sans-serif;
   }
 
 .layer6{
@@ -367,11 +393,14 @@ body{
     font-weight: bolder;
     margin-bottom: 50px;
     font-size: 35px;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 800;
   }
   .details a{
     text-decoration: none;
     color: hsl(167, 40%, 24%);
     padding: 20px;
+    font-family: 'Figtree', sans-serif;
   }
   .details a:hover{
     color: white;
